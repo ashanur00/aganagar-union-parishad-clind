@@ -5,16 +5,18 @@ import { Link } from 'react-router-dom';
 const ErrorPages = () => {
     return (
         <div>
+            <Link to={'/'}>
             <div>
                 <DotLottieReact
-                    src="https://lottie.host/e8c83b53-ea99-4e5f-99ad-9787e3401384/HAIXJip4WQ.lottie"
+                    src="https://lottie.host/e77417a8-b8ee-4b68-81b3-226085ecaf93/XwSW4w9jdT.lottie"
                     loop
                     autoplay
+                    style ={{width: '100%', height: '100vh', margin: ' auto',
+                    }}
 
                 />
             </div>
-            <Link to={'/'}>
-                <button className="btn btn-primary md:ml-[500px]">Go back Home</button>
+                
             </Link>
         </div>
     );
