@@ -15,8 +15,8 @@ const Navbar = () => {
                 </ul>
             </details>
         </li>
-        <li><Link to= '/sonodJacai'>সনদ যাচাই</Link></li>
-        <li><Link to= '/jugajog'>যোগাযোগ</Link></li>
+        <li><Link to= '/CertificateVerification'>সনদ যাচাই</Link></li>
+        <li><Link to= '/contarct'>যোগাযোগ</Link></li>
     </>
     return (
         <div>
