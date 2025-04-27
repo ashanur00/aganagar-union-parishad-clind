@@ -17,6 +17,29 @@ const FromApplication = () => {
                     <select className="select select-bordered">
                         <option disabled selected>যেকোন একটি সিলেক্ট করুন</option>
                         <option>নাগরিকত্ব সনদ</option>
+                        <option>মৃত্যু সনদ</option>
+                        <option>চারিত্রিক সনদ</option>
+                        <option>অবিবাহিত সনদ</option>
+                        <option>ভূমিহীন সনদ</option>
+                        <option>পুনঃ বিবাহ না হওয়া সনদ</option>
+                        <option>বার্ষিক আয়ের প্রত্যয়ন</option>
+                        <option>একই নামের প্রত্যয়ন</option>
+                        <option>প্রকৃত বাকঁ ও শ্রবন প্রতিবন্ধী</option>
+                        <option>সনাতন ধর্ম অবলম্বী</option>
+                        <option>অনুমতি পত্র</option>
+                        <option>প্রত্যয়ন পত্র</option>
+                        <option>ভোটার আইডি স্থানান্তর প্রত্যয়ন</option>
+                        <option>নদী ভাঙনের সনদ</option>
+                        <option>নতুন ভোটার সুপারিশ প্রত্যয়ন</option>
+                        <option>পাসপোর্ট সুপারিশ পত্র</option>
+                        <option>বিবাহিত সনদ</option>
+                        <option>ভোটার তথ্য সংশোধন প্রত্যয়ন</option>
+                        <option>অভিভাবকের সম্মতিপত্র</option>
+                        <option>জাতীয়তা সনদপত্র</option>
+                        <option>ভিন্ন দেশের নাগরিক নয় মর্মে প্রত্যয়ন পত্র</option>
+                        <option>পাসপোর্ট সংক্রান্ত প্রত্যয়ন পত্র</option>
+                        <option>অনাপত্তি সনদ</option>
+                        <option>ভোটার তালিকায় বাদ পড়া সংক্রান্ত প্রত্যয়ন</option>
                     </select>
                 </label>
                 <label className="form-control w-full max-w-xs">
@@ -420,8 +443,8 @@ const FromApplication = () => {
                 </div>
             </div>
             {/* section 5 */}
-            <div>
-                 
+            <div className='mt-5 mb-5 ml-[480px]'>
+                <button className="btn btn-success">Submit</button>
             </div>
         </div>
     );
